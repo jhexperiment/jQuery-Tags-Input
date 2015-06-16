@@ -361,6 +361,12 @@
 		}
 	};
 
+    $.fn.tagsInput.destroy = function() {
+
+        delimiter = new Array();
+
+    };
+
    /**
      * check delimiter Array
      * @param event
